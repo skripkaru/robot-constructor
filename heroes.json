@@ -1,0 +1,60 @@
+{
+  "heroes": [
+    {
+      "id": "47821444-f87c-4ae9-b20e-8bf978d94fcb",
+      "name": "Guardian",
+      "description": "Strong Armor",
+      "element": "tank"
+    },
+    {
+      "id": "6fcfbc5c-5016-41c2-b1a8-9d0a048c29f2",
+      "name": "Killshot",
+      "description": "Fast Attack",
+      "element": "attacker"
+    },
+    {
+      "id": "11fcec6b-240a-4c3d-a8c5-fa1e84f997bb",
+      "name": "Shadow",
+      "description": "Invisible Damage",
+      "element": "scout"
+    },
+    {
+      "id": "d17fd73e-019b-465d-b110-c7d294c7bfa5",
+      "name": "Never",
+      "description": "Team Support",
+      "element": "support"
+    }
+  ],
+  "filters": [
+    {
+      "id": "all",
+      "name": "all",
+      "label": "All",
+      "className": "btn-outline-dark"
+    },
+    {
+      "id": "tank",
+      "name": "tank",
+      "label": "Tank",
+      "className": "btn-danger"
+    },
+    {
+      "id": "attacker",
+      "name": "attacker",
+      "label": "Attacker",
+      "className": "btn-primary"
+    },
+    {
+      "id": "scout",
+      "name": "scout",
+      "label": "Scout",
+      "className": "btn-success"
+    },
+    {
+      "id": "support",
+      "name": "support",
+      "label": "Support",
+      "className": "btn-secondary"
+    }
+  ]
+}

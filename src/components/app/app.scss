@@ -1,0 +1,17 @@
+.app {
+  height: 100vh;
+  overflow-y: auto;
+  background: url('../../assets/bg.png') right bottom / 400px no-repeat;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 560px 440px;
+  max-width: 1040px;
+  margin: 0 auto;
+  padding-top: 50px;
+
+  &__interactive {
+    padding-left: 40px;
+  }
+}

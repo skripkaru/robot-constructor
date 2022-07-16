@@ -1,0 +1,17 @@
+.hero-enter {
+  opacity: 0;
+}
+
+.hero-enter-active {
+  opacity: 1;
+  transition: all .3s ease-in-out;
+}
+
+.hero-exit {
+  opacity: 1;
+}
+
+.hero-exit-active {
+  opacity: 0;
+  transition: all .3s ease-in-out;
+}
