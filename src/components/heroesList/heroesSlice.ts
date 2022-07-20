@@ -11,7 +11,7 @@ export const fetchHeroes = createAsyncThunk(
   'heroes/fetchHeroes',
   async () => {
     const {request} = useHttp();
-    return await request("http://localhost:3001/heroes")
+    return await request("https://my-json-server.typicode.com/skripkaru/robot-constructor/heroes")
   }
 )
 
