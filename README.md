@@ -12,6 +12,12 @@ Service for creating your own different robots
 
 **Server:** JSON Server
 
+## Features
+
+- Adding robots
+- Deleting robots
+- Robot filter
+
 ## Installation
 
 Install with yarn
