@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.aa0867c9.css",
-    "main.js": "/static/js/main.1e4e6e24.js",
-    "static/js/787.ab7c25fb.chunk.js": "/static/js/787.ab7c25fb.chunk.js",
-    "static/media/bg.png": "/static/media/bg.8c08fc1a667829d58568.png",
-    "index.html": "/index.html",
-    "main.aa0867c9.css.map": "/static/css/main.aa0867c9.css.map",
-    "main.1e4e6e24.js.map": "/static/js/main.1e4e6e24.js.map",
-    "787.ab7c25fb.chunk.js.map": "/static/js/787.ab7c25fb.chunk.js.map"
+    "main.css": "/robot-constructor/static/css/main.830776fb.css",
+    "main.js": "/robot-constructor/static/js/main.94d4da82.js",
+    "static/js/787.ab7c25fb.chunk.js": "/robot-constructor/static/js/787.ab7c25fb.chunk.js",
+    "static/media/bg.png": "/robot-constructor/static/media/bg.8c08fc1a667829d58568.png",
+    "index.html": "/robot-constructor/index.html",
+    "main.830776fb.css.map": "/robot-constructor/static/css/main.830776fb.css.map",
+    "main.94d4da82.js.map": "/robot-constructor/static/js/main.94d4da82.js.map",
+    "787.ab7c25fb.chunk.js.map": "/robot-constructor/static/js/787.ab7c25fb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa0867c9.css",
-    "static/js/main.1e4e6e24.js"
+    "static/css/main.830776fb.css",
+    "static/js/main.94d4da82.js"
   ]
 }
