@@ -9,6 +9,7 @@ import Spinner from '../spinner/Spinner';
 import './heroList.scss'
 import {deleteHero, fetchHeroes, filteredHeroesSelector} from "./heroesSlice";
 import {IHero} from "../../types";
+import {API_URL} from "../../constants";
 
 const HeroesList = () => {
   const filteredHeroes = useSelector(filteredHeroesSelector)
@@ -24,7 +25,7 @@ const HeroesList = () => {
   }, []);
 
   const onDelete = useCallback((id: string) => {
-    request(`http://localhost:3001/heroes/${id}`, 'DELETE')
+    request(`${API_URL}heroes/${id}`, 'DELETE')
       .then(() => dispatch(deleteHero(id)))
       .catch(e => console.log(e))
   }, [request])

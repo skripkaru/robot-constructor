@@ -7,6 +7,7 @@ import {createHero} from "../heroesList/heroesSlice";
 import {selectAll} from "../heroesFilters/filtersSlice";
 import store from "../../store";
 import {IFilter} from "../../types";
+import {API_URL} from "../../constants";
 
 const HeroesAddForm = () => {
   const [name, setName] = useState('')
@@ -29,7 +30,7 @@ const HeroesAddForm = () => {
     }
 
     // @ts-ignore
-    request("http://localhost:3001/heroes", "POST", JSON.stringify(newHero))
+    request(`${API_URL}heroes`, "POST", JSON.stringify(newHero))
       .then(() => dispatch(createHero(newHero)))
       .catch(e => console.log(e))
 

@@ -1,6 +1,7 @@
 import {createAsyncThunk, createEntityAdapter, createSlice} from "@reduxjs/toolkit";
 import {useHttp} from "../../hooks/useHttp";
 import {IFilter} from "../../types";
+import {API_URL} from "../../constants";
 
 const filtersAdapter = createEntityAdapter()
 
@@ -19,7 +20,7 @@ export const fetchFilters = createAsyncThunk(
   'filters/fetchFilters',
   async () => {
     const {request} = useHttp();
-    return await request("https://my-json-server.typicode.com/skripkaru/robot-constructor/filters")
+    return await request(`${API_URL}filters`)
   }
 )
 

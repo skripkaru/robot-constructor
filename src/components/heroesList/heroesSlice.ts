@@ -1,5 +1,6 @@
 import {createSlice, createAsyncThunk, createEntityAdapter, createSelector} from "@reduxjs/toolkit";
 import {useHttp} from "../../hooks/useHttp";
+import {API_URL} from "../../constants";
 
 const heroesAdapter = createEntityAdapter()
 
@@ -11,7 +12,7 @@ export const fetchHeroes = createAsyncThunk(
   'heroes/fetchHeroes',
   async () => {
     const {request} = useHttp();
-    return await request("https://my-json-server.typicode.com/skripkaru/robot-constructor/heroes")
+    return await request(`${API_URL}heroes`)
   }
 )
 
